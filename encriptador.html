@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src="logo_alura_a.svg" alt="Logo Alura">
+        <h1>Encriptador de texto</h1>
+    </header>
+    <main class="main">
+        <section class="texto_original">
+            <textarea id="texto_encriptado" class="campo_texto" placeholder="Texto a encriptar"></textarea>
+            <div class= "texto_bajo_encriptado">
+            <img  src="signo_de_exclamación.svg" alt="Signo de exclamación">
+            <p>Solo letras minúsculas y sin acentos, prueba a ver que pasa, pero números no</p>
+            </div>
+            <div class="btn">
+                <button class="btn_encriptar" onclick=btn_encriptar()>Encriptar</button>
+                <button class="btn_desencriptar" onclick=btn_desencriptar()>Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="campo_mensaje">
+            <textarea id="campo_mensaje" class="mensaje"></textarea>
+            <p id="texto_bajo_imagen">Ningún mensaje fue encontrado</p>
+            <p id="texto_bajo_imagen_dos">Ingresa el texto que desees encriptar o desencriptar</p>
+            <div>
+                <button class="btn_copiar" onclick=btn_copiar()>Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p class="nombre">Josue Gutierrez Jaramillo   2024</p>
+    </footer>
+    <script src="encriptador de texto.js"> </script>
+</body>
+
+
+</html>

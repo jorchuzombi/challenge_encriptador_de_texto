@@ -1,0 +1,148 @@
+body{
+    background:linear-gradient(to left, #f5f2f2,#868686);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header img {
+    width: 200px;
+    height: 50px;
+}
+
+header h1 {
+    margin-left: 400px;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+textarea{
+    font-weight: bold;
+    border: none;
+    resize: none;
+    font-size: 32px;
+}
+
+main{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.texto_original{
+    position: absolute;
+    top:60px;
+}
+
+#texto_encriptado{
+    background:transparent;
+    width: 300px;
+    height: 300px;
+}
+
+.texto_original p{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #495057;
+}
+
+.texto_bajo_encriptado{
+    display:flex;
+}
+
+.texto_bajo_encriptado p{
+    margin-left: 10px;
+}
+
+button{
+    border-radius: 24px;
+    background: transparent;
+    width: fixed;
+    height: 67px;
+    padding: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    height: 80px;
+    opacity:80%;
+    font-size: 24px;
+}
+
+button.btn_encriptar{
+    background-color: #2e3338;
+    color:rgb(167, 167, 167);
+}
+
+.campo_mensaje{
+    position: absolute;
+    top:60px;
+    right:0px;
+    background-color: #ffffff;
+    border-radius: 8%;
+    padding-top: 20px;
+}
+
+#campo_mensaje{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url('muñec_\ placeholder.svg');
+    background-size: cover;
+    background-position: center;
+    background-clip: padding-box;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+#campo_mensaje.hide-background {
+    background-image: none;
+}
+
+#texto_bajo_imagen{
+    font-family: "Inter", sans-serif;
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 700;
+    white-space: pre-wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto_bajo_imagen_dos{
+    font-family: "Inter", sans-serif;
+    color: #495057;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: pre-wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_copiar{
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
